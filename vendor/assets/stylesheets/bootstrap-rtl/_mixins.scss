@@ -206,22 +206,22 @@
 // Single Corner Border Radius
 @mixin border-top-right-radius($radius) {
   -webkit-border-top-right-radius: $radius;
-      -moz-border-radius-topleft: $radius;
+      -moz-border-radius-topright: $radius;
           border-top-right-radius: $radius;
 }
 @mixin border-top-left-radius($radius) {
   -webkit-border-top-left-radius: $radius;
-      -moz-border-radius-topright: $radius;
+      -moz-border-radius-topleft: $radius;
           border-top-left-radius: $radius;
 }
 @mixin border-bottom-left-radius($radius) {
   -webkit-border-bottom-left-radius: $radius;
-      -moz-border-radius-bottomright: $radius;
+      -moz-border-radius-bottomleft: $radius;
           border-bottom-left-radius: $radius;
 }
 @mixin border-bottom-right-radius($radius) {
   -webkit-border-bottom-right-radius: $radius;
-      -moz-border-radius-bottomleft: $radius;
+      -moz-border-radius-bottomright: $radius;
           border-bottom-right-radius: $radius;
 }
 
@@ -410,11 +410,11 @@
 // Gradients
 @mixin gradient-horizontal($startColor: #555, $endColor: #333) {
   background-color: $endColor;
-  background-image: -moz-linear-gradient(right, $startColor, $endColor); // FF 3.6+
+  background-image: -moz-linear-gradient(left, $startColor, $endColor); // FF 3.6+
   background-image: -webkit-gradient(linear, 0 0, 100% 0, from($startColor), to($endColor)); // Safari 4+, Chrome 2+
-  background-image: -webkit-linear-gradient(right, $startColor, $endColor); // Safari 5.1+, Chrome 10+
-  background-image: -o-linear-gradient(right, $startColor, $endColor); // Opera 11.10
-  background-image: linear-gradient(to left, $startColor, $endColor); // Standard, IE10
+  background-image: -webkit-linear-gradient(left, $startColor, $endColor); // Safari 5.1+, Chrome 10+
+  background-image: -o-linear-gradient(left, $startColor, $endColor); // Opera 11.10
+  background-image: linear-gradient(to right, $startColor, $endColor); // Standard, IE10
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($startColor)}', endColorstr='#{ie-hex-str($endColor)}', GradientType=1); // IE9 and down
 }
