@@ -1,24 +1,20 @@
 # Bootstrap::Sass::Rtl
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'bootstrap-sass-rtl'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install bootstrap-sass-rtl
+RTL version of [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass).
 
 ## Usage
 
-TODO: Write usage instructions here
+Gemfile:
+
+    gem 'sass-rails', '~> 3.2'
+    gem 'bootstrap-sass', '~> 2.3.1.0'
+    gem 'bootstrap-sass-rtl', '~> 2.3.1.0'
+
+### CSS
+
+Import in your scss file:
+
+    @import "bootstrap-rtl";
 
 ## Contributing
 
