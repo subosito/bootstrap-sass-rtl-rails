@@ -1,0 +1,3 @@
+from 'git://github.com/thomas-mcdonald/bootstrap-sass.git', tag: 'v2.3.1.1' do
+  folder "bootstrap", "vendor/assets/stylesheets/bootstrap"
+end

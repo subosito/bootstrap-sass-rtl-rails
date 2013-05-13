@@ -49,7 +49,7 @@
   background-image: url($iconWhiteSpritePath);
 }
 
-.icon-glass              { background-position: 0      0; }
+.icon-glass              { background-position: 100%      0; }
 .icon-music              { background-position: -24px  0; }
 .icon-search             { background-position: -48px  0; }
 .icon-envelope           { background-position: -72px  0; }
@@ -70,7 +70,7 @@
 .icon-cog                { background-position: -432px 0; }
 .icon-trash              { background-position: -456px 0; }
 
-.icon-home               { background-position: 0      -24px; }
+.icon-home               { background-position: 100%      -24px; }
 .icon-file               { background-position: -24px  -24px; }
 .icon-time               { background-position: -48px  -24px; }
 .icon-road               { background-position: -72px  -24px; }
@@ -91,7 +91,7 @@
 .icon-qrcode             { background-position: -432px -24px; }
 .icon-barcode            { background-position: -456px -24px; }
 
-.icon-tag                { background-position: 0      -48px; }
+.icon-tag                { background-position: 100%      -48px; }
 .icon-tags               { background-position: -25px  -48px; } // 1px off
 .icon-book               { background-position: -48px  -48px; }
 .icon-bookmark           { background-position: -72px  -48px; }
@@ -112,7 +112,7 @@
 .icon-facetime-video     { background-position: -432px -48px; }
 .icon-picture            { background-position: -456px -48px; }
 
-.icon-pencil             { background-position: 0      -72px; }
+.icon-pencil             { background-position: 100%      -72px; }
 .icon-map-marker         { background-position: -24px  -72px; }
 .icon-adjust             { background-position: -48px  -72px; }
 .icon-tint               { background-position: -72px  -72px; }
@@ -133,7 +133,7 @@
 .icon-chevron-left       { background-position: -432px -72px; }
 .icon-chevron-right      { background-position: -456px -72px; }
 
-.icon-plus-sign          { background-position: 0      -96px; }
+.icon-plus-sign          { background-position: 100%      -96px; }
 .icon-minus-sign         { background-position: -24px  -96px; }
 .icon-remove-sign        { background-position: -48px  -96px; }
 .icon-ok-sign            { background-position: -72px  -96px; }
@@ -154,7 +154,7 @@
 .icon-minus              { background-position: -433px -96px; }
 .icon-asterisk           { background-position: -456px -96px; }
 
-.icon-exclamation-sign   { background-position: 0      -120px; }
+.icon-exclamation-sign   { background-position: 100%      -120px; }
 .icon-gift               { background-position: -24px  -120px; }
 .icon-leaf               { background-position: -48px  -120px; }
 .icon-fire               { background-position: -72px  -120px; }
@@ -175,7 +175,7 @@
 .icon-resize-vertical    { background-position: -432px -119px; } // 1px, 1px off
 .icon-resize-horizontal  { background-position: -456px -118px; } // 1px, 2px off
 
-.icon-hdd                     { background-position: 0      -144px; }
+.icon-hdd                     { background-position: 100%      -144px; }
 .icon-bullhorn                { background-position: -24px  -144px; }
 .icon-bell                    { background-position: -48px  -144px; }
 .icon-certificate             { background-position: -72px  -144px; }
