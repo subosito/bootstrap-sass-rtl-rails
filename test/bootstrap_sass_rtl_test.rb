@@ -1,10 +1,10 @@
 require 'test_helper'
 
-class BootstrapSassRtlTest < ActionDispatch::IntegrationTest
+class BootstrapSassRTLTest < ActionDispatch::IntegrationTest
   teardown { clean_cache }
 
   test "engine is loaded" do
-    assert_equal ::Rails::Engine, Bootstrap::Sass::Rtl::Engine.superclass
+    assert_equal ::Rails::Engine, Bootstrap::Sass::RTL::Engine.superclass
   end
 
   test "bootstrap.css inside bootstrap-rtl is served" do

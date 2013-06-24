@@ -5,7 +5,7 @@ require 'bootstrap/sass/rtl/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "bootstrap-sass-rtl"
-  spec.version       = Bootstrap::Sass::Rtl::VERSION
+  spec.version       = Bootstrap::Sass::RTL::VERSION
   spec.authors       = ["Alif Rachmawadi"]
   spec.email         = ["subosito@gmail.com"]
   spec.description   = %q{RTL version of bootstrap-sass}

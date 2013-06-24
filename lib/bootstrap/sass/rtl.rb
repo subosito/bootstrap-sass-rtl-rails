@@ -2,7 +2,7 @@ require "bootstrap/sass/rtl/version"
 
 module Bootstrap
   module Sass
-    module Rtl
+    module RTL
       class Engine < ::Rails::Engine
       end
     end

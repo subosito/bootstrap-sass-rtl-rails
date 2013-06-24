@@ -1,4 +1,4 @@
-# Bootstrap::Sass::Rtl
+# Bootstrap Sass RTL
 
 RTL version of [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass).
 
@@ -6,15 +6,20 @@ RTL version of [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sas
 
 Gemfile:
 
-    gem 'sass-rails', '~> 3.2'
-    gem 'bootstrap-sass', '~> 2.3.2.0'
-    gem 'bootstrap-sass-rtl', '~> 2.3.2.0'
+```ruby
+gem 'sass-rails', '~> 3.2'
+gem 'bootstrap-sass', '~> 2.3.2.0'
+gem 'bootstrap-sass-rtl', '~> 2.3.2.0'
+```
 
 ### CSS
 
 Import in your scss file:
 
-    @import "bootstrap-rtl";
+```css
+@import "bootstrap-rtl";
+@import "bootstrap-responsive-rtl";
+```
 
 ## Contributing
 
@@ -23,3 +28,4 @@ Import in your scss file:
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
