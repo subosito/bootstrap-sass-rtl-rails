@@ -135,6 +135,17 @@
   }
 }
 
+// Backdrop to catch body clicks on mobile, etc.
+// ---------------------------
+.dropdown-backdrop {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: $zindexDropdown - 10;
+}
+
 // left aligned dropdowns
 // ---------------------------
 .pull-right > .dropdown-menu {
